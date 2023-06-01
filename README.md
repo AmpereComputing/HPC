@@ -23,3 +23,5 @@ WRF
 OpenFOAM
 
 specfem3d
+
+Quantum Espresso
