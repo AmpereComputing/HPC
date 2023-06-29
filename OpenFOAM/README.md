@@ -46,3 +46,5 @@ wmRefresh
 #Change to OpenFOAM-10 directory and execute -
 ./Allwmake -j
 ```
+
+## Performance

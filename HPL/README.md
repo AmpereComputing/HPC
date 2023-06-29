@@ -114,7 +114,7 @@ Please note that this HPL.dat file is designed to run on 96 cores at 64 GB RAM. 
 mpirun -np 96 --bind-to core --map-by core ./xhpl &> out.log
 ```
 
-## Step 5: Performance Expectations
+## Performance Expectations
 
 If your system differs from our testbench, the HPL.dat file will need to be modified (line #6) to match your respective Altra Max config.
 

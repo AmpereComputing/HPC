@@ -8,7 +8,7 @@ Source : https://www.mmm.ucar.edu/models/wrf
 
 # To Build WRF on AltraMax
 
-## 1 Download Sources
+## Step 1 : Download Sources
 ```
 a. WRF
 wget https://github.com/wrf-model/WRF/releases/download/v4.4.2/
@@ -19,7 +19,7 @@ c. Install CSH
 sudo apt install csh
 ```
 
-## 2 Untar sources
+## Step 2 : Untar sources
 ```
 tar -xzf v4.4.2 
 tar -xzf v4.9.0.tar.gz
@@ -27,12 +27,17 @@ unxz -kd netcdf-fortran-4.6.0-1-aarch64.pkg.tar.xz
 tar -xf netcdf-fortran-4.6.0-1-aarch64.pkg.tar
 ```
 
-## 3 Build netcdf
+## Step 3 : Build netcdf
 ```cd /opt/netcdf-c-4.9.0/
 ./configure --prefix=/opt/usr/ --disable-hdf5
 make -j && make install
 ```
-## 4 Build WRF
+
+## Step 4 : Build WRF
 ```./configure
 ./compile em_real
 ```
+
+## Step 5 : Run WRF
+
+## Performance

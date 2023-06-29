@@ -18,20 +18,22 @@ Kernel : 5.4.0-148-generic
 
 To ensure a seamless build process, both, the math libraries and the benchmark are built inside the /opt directory.
 
-## 1 Download Sources
+## Step 1 : Download Sources
 ```
 git clone --recursive --branch devel https://github.com/SPECFEM/specfem3d.git
 ```
 
-## 2 Build
+## Step 2 : Build
 ```
 cd specfem3d/
 ./configure FC=gfortran CC=gcc MPIFC=mpifort CFLAGS="-Ofast -mcpu=native -march=native" --with-mpi --enable-vectorization FCFLAGS="-Ofast"
 make -j
 ```
 
-## 3 Run a sample program on 4 processes
+## Step 3 : Run a sample program on 4 processes
 ```
 cd EXAMPLES/meshfem3D_examples/simple_model
 ./run_this_example.sh
 ```
+
+## Performance

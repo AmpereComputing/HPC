@@ -6,14 +6,14 @@ Source : https://www.quantum-espresso.org/
 
 ## To Build Quantum Espresso on Altra Max
 
-## 1 Pre-recs
+## Step 1 : Prerequisitess
 For open source install OS available libopenblas and fftw3 using apt/dnf/yum
 
-For eg.
+For example
 ```
 apt install libfftw3-dev libopenblas-dev
 ```
-## 2 Download
+## Step 2 : Download
 Source Code
 ```
 wget https://github.com/QEF/q-e/archive/refs/tags/qe-7.0.tar.gz
@@ -21,7 +21,7 @@ Datasets
 git clone https://github.com/QEF/benchmarks.git
 ```
 
-## 3 Install
+## Step 3 : Install
 ```
 cd q-e-qe-7.0/
 ./configure --prefix=/opt/QuantumEspress
@@ -30,3 +30,7 @@ cd q-e-qe-7.0/
 make -j20 all
 make install
 ```
+
+## Step 4 : Run
+
+## Performance
