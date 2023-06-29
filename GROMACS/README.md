@@ -23,3 +23,12 @@ make check
 sudo make install
 source /usr/local/gromacs/bin/GMXRC
 ```
+
+## Step 3 : Run GROMACS
+```
+. . .
+. . .
+```
+
+##Performance
+
