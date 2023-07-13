@@ -30,5 +30,5 @@ source /usr/local/gromacs/bin/GMXRC
 . . .
 ```
 
-## Performance
-
+## Performance Expectations
+On Altra Max 1P running 512GB DDR4 3200MHz the expected performance 111 ns/day (Higher Better)
