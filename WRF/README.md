@@ -41,3 +41,4 @@ make -j && make install
 ## Step 5 : Run WRF
 
 ## Performance
+On Altra Max 1P running 512GB DDR4 3200MHz the expected performance for CONUS12km problem : 1.12 s/ts (Lower Better)
