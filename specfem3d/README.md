@@ -37,3 +37,4 @@ cd EXAMPLES/meshfem3D_examples/simple_model
 ```
 
 ## Performance
+On Altra Max 1P running 512GB DDR4 3200MHz the expected performance is 100 seconds
