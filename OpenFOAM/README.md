@@ -48,3 +48,8 @@ wmRefresh
 ```
 
 ## Performance
+On Altra Max 1P running 512GB DDR4 3200MHz the expected performance : 
+|Input Param|Mesh Time|Execution Time|
+|---|---|---|
+|motorBike|65 secs|131 secs|
+|drivaerFastback(small)|33 secs| 107 secs|
