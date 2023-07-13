@@ -34,3 +34,4 @@ make install
 ## Step 4 : Run
 
 ## Performance
+On Altra 1P running 512GB DDR4 3200MHz the expected performance 1513 seconds
