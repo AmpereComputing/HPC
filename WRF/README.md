@@ -28,13 +28,15 @@ tar -xf netcdf-fortran-4.6.0-1-aarch64.pkg.tar
 ```
 
 ## Step 3 : Build netcdf
-```cd /opt/netcdf-c-4.9.0/
+```
+cd /opt/netcdf-c-4.9.0/
 ./configure --prefix=/opt/usr/ --disable-hdf5
 make -j && make install
 ```
 
 ## Step 4 : Build WRF
-```./configure
+```
+./configure
 ./compile em_real
 ```
 
