@@ -25,9 +25,10 @@ source /usr/local/gromacs/bin/GMXRC
 ```
 
 ## Step 3 : Run GROMACS
+Download the benchMEM input files : https://www.mpinat.mpg.de/grubmueller/bench
 ```
-. . .
-. . .
+/bin/gmx mdrun -s benchMEM.tpr -nsteps 10000 -resethway
+/bin/gmx mdrun -s benchRIB.tpr -nsteps 10000 -resethway
 ```
 
 ## Performance Expectations
