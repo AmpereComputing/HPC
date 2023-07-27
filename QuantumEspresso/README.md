@@ -32,6 +32,17 @@ make install
 ```
 
 ## Step 4 : Run
+Download Input data set 
 
+git clone https://github.com/QEF/benchmarks.git
+
+We will be using the AUSURF benchmark input for our tests.
+
+sed -i '28 c \    electron_maxstep = 25' ./benchmarks/AUSURF112/ausurf.in
+
+```
+mpirun -n $NCORES --map-by ppr:$NCORES:node:PE=1 ../../bin/pw.x -npool 2 -ndiag 1 -ntg 1 -inp ./benchmarks/AUSURF112/ausurf.in > ausurf.res
+# Replace $NCORES with # cores on your system
+```
 ## Performance
 On Altra 1P running 512GB DDR4 3200MHz the expected performance 1513 seconds
