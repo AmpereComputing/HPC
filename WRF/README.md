@@ -13,8 +13,7 @@ Source : https://www.mmm.ucar.edu/models/wrf
 a. WRF
 wget https://github.com/wrf-model/WRF/releases/download/v4.4.2/
 b. NETCDF (C and Fortran)
-wget https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.9.0.tar.gz
-wget http://mirror.archlinuxarm.org/aarch64/community/netcdf-fortran-4.6.0-1-aarch64.pkg.tar.xz
+Sources provided with this git.
 c. Install CSH
 sudo apt install csh
 ```
