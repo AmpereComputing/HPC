@@ -60,3 +60,6 @@ chmod +x run_HEPscore_configurable_ncores.sh
 ./run_HEPscore_configurable_ncores.sh -s test -n 128
 #Note : change -n (num_cores) to according to the core availability
 ```
+
+## Performance Expectation
+TBD
