@@ -47,7 +47,7 @@ cd /opt/HEPscore/singularity-3.11.4/bin
 export PATH=$PATH:`pwd`
 ```
 
-##Step 4 : HEPscore Installation
+## Step 4 : HEPscore Installation
 ```
 cd /opt/HEPscore/
 pip3 install --user --upgrade pip
@@ -55,7 +55,7 @@ pip3 install --user --upgrade pip
 chmod +x run_HEPscore_configurable_ncores.sh
 ```
 
-##Step 5 : Run benchmark.
+## Step 5 : Run benchmark.
 ```
 ./run_HEPscore_configurable_ncores.sh -s test -n 128
 #Note : change -n (num_cores) to according to the core availability
