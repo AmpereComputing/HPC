@@ -1,4 +1,4 @@
-#CERN-HEP : High Energy Physics : HEPscore
+# CERN-HEP : High Energy Physics : HEPscore
 The HEPscore application orchestrates the execution of user-configurable benchmark suites based on individual benchmark containers.It runs the specified benchmark containers in sequence, collects their results, and computes a final overall score.
 HEPscore23Beta is a benchmark based on containerized HEP workloads that the HEPiX Benchmarking Working Group is targeting to eventually replace HEPSPEC06 as the standard HEPiX/WLCG benchmark.  It is currently in a proof of concept development state, and consists of the following workloads from the HEP Workloads project:
 atlas-gen_sherpa-ma-bmk
