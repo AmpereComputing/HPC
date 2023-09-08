@@ -62,4 +62,12 @@ chmod +x run_HEPscore_configurable_ncores.sh
 ```
 
 ## Performance Expectation
-TBD
+```
+=========================================================
+BENCHMARK RESULTS FOR ampere-Altramax
+=========================================================
+Suite start: 2023-09-07T11:18:36Z
+Suite end:   2023-09-07T13:24:01Z
+Machine CPU Model: Neoverse-N1
+HEPSCORE Benchmark = 1569.68 over benchmarks dict_keys(['atlas-gen_sherpa-ma-bmk', 'atlas-reco_mt-ma-bmk', 'cms-gen-sim-run3-ma-bmk', 'cms-reco-run3-ma-bmk', 'lhcb-sim-run3-ma-bmk', 'belle2-gen-sim-reco-ma-bmk', 'alice-digi-reco-core-run3-ma-bmk'])
+```
