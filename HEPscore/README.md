@@ -24,8 +24,8 @@ sudo apt-get install -y build-essential libseccomp-dev libglib2.0-dev pkg-config
 ```
 #We will be installing in non standard locations. 
 
-cd /opt  && mkdir HEPscore
-cd HEPscore
+mkdir -p/opt/HEPscore
+cd /opt/HEPscore
 wget https://go.dev/dl/go1.21.0.linux-arm64.tar.gz
 tar -xzf go1.21.0.linux-arm64.tar.gz
 cd go/bin
